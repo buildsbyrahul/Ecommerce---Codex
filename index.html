@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FutureStore | Futuristic E-Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-bg"></div>
+
+    <header class="site-header glass" id="home">
+      <nav class="navbar container">
+        <a href="#home" class="logo">FutureStore</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <label class="search-wrap" for="search-input">
+            <span aria-hidden="true">⌕</span>
+            <input id="search-input" type="search" placeholder="Search" />
+          </label>
+          <button class="icon-btn" aria-label="Cart">🛒</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container glass section-space">
+        <div class="hero-copy">
+          <p class="eyebrow">Next-Gen Shopping Experience</p>
+          <h1>Welcome to FutureStore</h1>
+          <p>
+            Discover premium gadgets and futuristic essentials crafted for a
+            smarter lifestyle.
+          </p>
+          <a href="#shop" class="btn-primary">Shop Now</a>
+        </div>
+        <div class="hero-orb" aria-hidden="true">
+          <div class="orb-ring"></div>
+          <div class="orb-core"></div>
+        </div>
+      </section>
+
+      <section id="shop" class="container section-space">
+        <div class="section-title-wrap">
+          <h2>Featured Products</h2>
+          <p>Engineered for performance. Designed for tomorrow.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card glass">
+            <img
+              src="https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=900&q=80"
+              alt="Ultra-slim futuristic laptop"
+            />
+            <h3>Nebula X1 Laptop</h3>
+            <p class="price">$1,299</p>
+            <button class="btn-secondary">Buy Now</button>
+          </article>
+          <article class="product-card glass">
+            <img
+              src="https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=900&q=80"
+              alt="Modern noise-canceling headphones"
+            />
+            <h3>PulseWave Headphones</h3>
+            <p class="price">$249</p>
+            <button class="btn-secondary">Buy Now</button>
+          </article>
+          <article class="product-card glass">
+            <img
+              src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=900&q=80"
+              alt="Smartwatch with neon display"
+            />
+            <h3>Chrono Sync Watch</h3>
+            <p class="price">$329</p>
+            <button class="btn-secondary">Buy Now</button>
+          </article>
+          <article class="product-card glass">
+            <img
+              src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=900&q=80"
+              alt="Futuristic smartphone with edge-to-edge display"
+            />
+            <h3>Photon Z Smartphone</h3>
+            <p class="price">$899</p>
+            <button class="btn-secondary">Buy Now</button>
+          </article>
+          <article class="product-card glass">
+            <img
+              src="https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?auto=format&fit=crop&w=900&q=80"
+              alt="Virtual reality headset"
+            />
+            <h3>VisionCore VR</h3>
+            <p class="price">$549</p>
+            <button class="btn-secondary">Buy Now</button>
+          </article>
+          <article class="product-card glass">
+            <img
+              src="https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=900&q=80"
+              alt="Portable bluetooth speaker"
+            />
+            <h3>Echo Beam Speaker</h3>
+            <p class="price">$179</p>
+            <button class="btn-secondary">Buy Now</button>
+          </article>
+        </div>
+      </section>
+
+      <section id="categories" class="container section-space">
+        <div class="section-title-wrap">
+          <h2>Categories</h2>
+          <p>Browse high-tech essentials tailored to your lifestyle.</p>
+        </div>
+        <div class="category-grid">
+          <article class="category-card glass">
+            <h3>Electronics</h3>
+            <p>Smart devices for an upgraded world.</p>
+          </article>
+          <article class="category-card glass">
+            <h3>Fashion</h3>
+            <p>Future-forward wearables and style.</p>
+          </article>
+          <article class="category-card glass">
+            <h3>Accessories</h3>
+            <p>Premium add-ons for daily productivity.</p>
+          </article>
+          <article class="category-card glass">
+            <h3>Gadgets</h3>
+            <p>Innovative tools built for tomorrow.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section-space" id="about">
+        <aside class="featured-banner glass">
+          <p class="eyebrow">Limited Time Offer</p>
+          <h2>50% Off on Smart Gadgets</h2>
+          <p>
+            Upgrade your setup with exclusive deals on cutting-edge tech.
+          </p>
+          <a href="#shop" class="btn-primary">Claim Offer</a>
+        </aside>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer glass">
+      <div class="container footer-grid">
+        <section>
+          <a href="#home" class="logo">FutureStore</a>
+          <p>Premium futuristic e-commerce, crafted for innovators.</p>
+        </section>
+        <section>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3>Contact</h3>
+          <ul>
+            <li>Email: hello@futurestore.com</li>
+            <li>Phone: +1 (555) 210-9090</li>
+            <li>Location: Neo City, Earth</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Follow Us</h3>
+          <div class="social-icons" aria-label="Social links">
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="X">✕</a>
+            <a href="#" aria-label="YouTube">▶</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
